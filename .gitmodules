@@ -1,0 +1,3 @@
+[submodule "submodules/apollo-server"]
+	path = submodules/apollo-server
+	url = https://github.com/apollographql/apollo-server.git
