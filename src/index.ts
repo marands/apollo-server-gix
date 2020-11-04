@@ -29,5 +29,16 @@ export {
     ApolloServerExpressConfig,
 } from './ApolloServer';
 
+
+export {
+    GixAPIGatewayProxyEvent,
+    GixAPIGatewayProxyHandler
+} from './GixGraphQLWebSocket';
+
+export {
+    ApolloServerGixAWS,
+    GixAWSApolloCreateHandlerOptions
+} from './ApolloServerGixAWS';
+
 export { CorsOptions } from 'cors';
 export { OptionsJson } from 'body-parser';
