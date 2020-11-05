@@ -9,6 +9,8 @@ export interface GixGraphQLWebSocketPayload {
     isBase64Encoded: boolean;
     httpMethod: string;
     path: string;
+    gqlId: string;
+    gqlType: string;
 }
 
 type Modify<T, R> = Omit<T, keyof R> & R;

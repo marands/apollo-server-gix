@@ -32,7 +32,8 @@ export {
 
 export {
     GixAPIGatewayProxyEvent,
-    GixAPIGatewayProxyHandler
+    GixAPIGatewayProxyHandler,
+    GixGraphQLWebSocketPayload
 } from './GixGraphQLWebSocket';
 
 export {
