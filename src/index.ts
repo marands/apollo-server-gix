@@ -16,7 +16,7 @@ export {
     defaultPlaygroundOptions,
     PlaygroundConfig,
     PlaygroundRenderPageOptions,
-} from '../submodules/apollo-server/packages/apollo-server-core';
+} from 'apollo-server-core';
 
 export * from 'graphql-tools';
 export * from 'graphql-subscriptions';

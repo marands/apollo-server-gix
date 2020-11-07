@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "clean": "git clean -dfqX -- ./node_modules **/{dist,node_modules}/ ./packages/*/tsconfig*tsbuildinfo",
-    "compile": "concurrently \"tsc --build tsconfig.json\" \"npm run --prefix ./submodules/apollo-server compile\"",
+    "compile": "tsc --build tsconfig.json",
     "compile:clean": "concurrently \"tsc --build tsconfig.build.json --clean\" \"npm run --prefix ./submodules/apollo-server compile:clean\"",
     "watch": "concurrently \"tsc -w\" \"nodemon dist/index.js\" \"npm run --prefix ./submodules/apollo-server watch\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -43,6 +43,7 @@
     "@types/aws-lambda": "^8.10.64",
     "@types/body-parser": "^1.19.0",
     "@types/cors": "^2.8.8",
+    "apollo-server-core": "^2.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "graphql": "^15.4.0",

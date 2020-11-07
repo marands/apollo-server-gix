@@ -8,7 +8,7 @@ import {
     FileUploadOptions,
     ApolloServerBase,
     GraphQLOptions,
-} from '../submodules/apollo-server/packages/apollo-server-core';
+} from 'apollo-server-core';
 import {
     renderPlaygroundPage,
     RenderPageOptions as PlaygroundRenderPageOptions,
@@ -20,7 +20,7 @@ import {
 } from 'http';
 
 import { graphqlLambda } from './gixAwsLambdaApollo';
-import { Headers } from '../submodules/apollo-server/packages/apollo-server-env';
+import { Headers } from 'apollo-server-env';
 import { Readable, Writable } from 'stream';
 
 import { GixAPIGatewayProxyEvent } from './GixGraphQLWebSocket';

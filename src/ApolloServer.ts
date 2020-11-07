@@ -14,13 +14,13 @@ import {
     ContextFunction,
     Context,
     Config,
-} from '../submodules/apollo-server/packages/apollo-server-core';
+} from 'apollo-server-core';
 import { ExecutionParams } from 'subscriptions-transport-ws';
 import accepts from 'accepts';
 import typeis from 'type-is';
 import { graphqlExpress } from './expressApollo';
 
-export { GraphQLOptions, GraphQLExtension } from '../submodules/apollo-server/packages/apollo-server-core';
+export { GraphQLOptions, GraphQLExtension } from 'apollo-server-core';
 
 export interface GetMiddlewareOptions {
     path?: string;

@@ -3,9 +3,9 @@ import {
     GraphQLOptions,
     HttpQueryError,
     runHttpQuery,
-} from '../submodules/apollo-server/packages/apollo-server-core';
-import { Headers } from '../submodules/apollo-server/packages/apollo-server-env';
-import { ValueOrPromise } from '../submodules/apollo-server/packages/apollo-server-types';
+} from 'apollo-server-core';
+import { Headers } from 'apollo-server-env';
+import { ValueOrPromise } from 'apollo-server-types';
 import {GixAPIGatewayProxyHandler } from './GixGraphQLWebSocket';
 
 export interface LambdaGraphQLOptionsFunction {

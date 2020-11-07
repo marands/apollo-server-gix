@@ -4,8 +4,8 @@ import {
     HttpQueryError,
     runHttpQuery,
     convertNodeHttpToRequest,
-} from '../submodules/apollo-server/packages/apollo-server-core';
-import { ValueOrPromise } from '../submodules/apollo-server/packages/apollo-server-types';
+} from 'apollo-server-core';
+import { ValueOrPromise } from 'apollo-server-types';
 
 export interface ExpressGraphQLOptionsFunction {
     (req: express.Request, res: express.Response): ValueOrPromise<GraphQLOptions>;
